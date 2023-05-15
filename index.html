@@ -33,7 +33,30 @@
      </span>
   
    </section>
-   </div>  
+   </div>
+    <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyC3tiNvtiJQztWYU-um7i8Mq6fgQgiZIPc",
+    authDomain: "iitpl-7dcb0.firebaseapp.com",
+    projectId: "iitpl-7dcb0",
+    storageBucket: "iitpl-7dcb0.appspot.com",
+    messagingSenderId: "986148022772",
+    appId: "1:986148022772:web:1a2cd2d0d1a4894a4371a1",
+    measurementId: "G-MCPMRBFRW5"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
     <script src="script.js"></script>
     <!-- Loads <model-viewer> for browsers: -->
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
