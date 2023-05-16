@@ -20,7 +20,7 @@ document.querySelector('model-viewer').addEventListener('progress', onProgress);
         var isiPad = navigator.userAgent.match(/iPad/i) != null;
         var isiPhone = navigator.userAgent.match(/iPhone/i) != null;
         if (isiPad || isiPhone) {
-           setTimeout( \"refresh()\", 300 );
+           setTimeout( \"refresh()\", 10 );
         } else {
            window.close();
         }
