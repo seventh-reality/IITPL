@@ -41,16 +41,14 @@ height: 60px;
   align-items: flex-end;
   
 }
-.attributiondemo {
-  color: #000000;
- 
-  flex-direction: column;
-  justify-content: space-evenly;
-  margin: 0em;
-  align-content: center;
-  flex-wrap: wrap;
-  align-items: center;
-  
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
 }
 
 .attribution {
