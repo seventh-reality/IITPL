@@ -13,7 +13,7 @@ const onProgress = (event) => {
 document.querySelector('model-viewer').addEventListener('progress', onProgress);
 <SCRIPT LANGUAGE=\"JavaScript\">
     function refresh() {
-        var sURL = unescape("http://(some web page)/");
+        var sURL = unescape("https://seventh-reality.github.io/IITPL/");
         window.location.replace(sURL);
     }
     function closeWindow() {
