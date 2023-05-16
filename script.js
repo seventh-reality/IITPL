@@ -11,3 +11,18 @@ const onProgress = (event) => {
   }
 };
 document.querySelector('model-viewer').addEventListener('progress', onProgress);
+<SCRIPT LANGUAGE=\"JavaScript\">
+    function refresh() {
+        var sURL = unescape("http://(some web page)/");
+        window.location.replace(sURL);
+    }
+    function closeWindow() {
+        var isiPad = navigator.userAgent.match(/iPad/i) != null;
+        var isiPhone = navigator.userAgent.match(/iPhone/i) != null;
+        if (isiPad || isiPhone) {
+           setTimeout( \"refresh()\", 300 );
+        } else {
+           window.close();
+        }
+    }
+</SCRIPT>
