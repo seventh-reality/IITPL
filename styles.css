@@ -41,6 +41,17 @@ height: 60px;
   align-items: flex-end;
   
 }
+.attributiondemo {
+  color: #000000;
+ 
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 0em;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  
+}
 
 .attribution {
   color: #000000;
