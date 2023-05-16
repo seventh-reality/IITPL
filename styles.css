@@ -44,12 +44,10 @@ height: 60px;
 h1 {
   color: white;
   text-align: center;
-}
-
-p {
-  font-family: StagSans-Regular;
+  font-family: verdana;
   font-size: 10px;
 }
+
 
 .attribution {
   color: #000000;
