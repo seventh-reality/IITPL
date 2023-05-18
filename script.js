@@ -10,3 +10,10 @@ const onProgress = (event) => {
     progressBar.classList.remove('hide');
   }
 };
+var x = 0;
+function setup() {
+  setTimeout(rainbow, 3000);
+}
+function rainbow(){
+createP('rainbow');
+}
