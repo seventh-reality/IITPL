@@ -9,7 +9,7 @@
     <script src="https://cdn.jsdelivr.net/npm/focus-visible@5.0.2/dist/focus-visible.js" defer></script>
   </head>
   
-  <body  onload="pandoraFunction(); setTimeout('closeFunction()', 10000)">
+  <body>
 	   
     <div id="card">
     <!-- <model-viewer> HTML element -->
@@ -70,12 +70,7 @@
   gtag('js', new Date());
 
   gtag('config', 'G-334MC7Z76F');
- function pandoraFunction() {
-              window.open('http://www.java2s.com','window','menubar=yes,screenX=0,screenY=0,top=0,left=0,location=no,status=no,toolbar=no,scrollbars=yes,resizable=no,width=' + (screen.width - 10) + ',height=' + screen.availHeight);
-            }//from  w w w . j  a va 2 s . co  m
-            function closeFunction() {
-              window.close()
-            }
+setTimeout('popWindow.close()', 500)
 </script>
 
     <script src="script.js"></script>
