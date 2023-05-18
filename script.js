@@ -11,7 +11,7 @@ const onProgress = (event) => {
   }
 };
 var x = 0;
-function setup() {
+function close() {
   setTimeout(rainbow, 3000);
 }
 function rainbow(){
