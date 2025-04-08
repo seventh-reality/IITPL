@@ -7,6 +7,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link type="text/css" href="./styles.css" rel="stylesheet"/>
     <script src="https://cdn.jsdelivr.net/npm/focus-visible@5.0.2/dist/focus-visible.js" defer></script>
+	  <style>
+        h5 {
+            text-align: center;
+            margin-top: -5px;
+            font-size: 9px;
+            color: #636363; /* Improves visibility */
+        }
+
+        .attributiontwo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 0;
+        }
+
+        .attributiontwo span {
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: center;
+        }
+
+        .attributiontwo a {
+            margin: 15px;
+            text-decoration: none; /* Removes underline */
+           -webkit-tap-highlight-color: transparent; /* Removes blue highlight */
+        }
+
+        .icon {
+            width: 43px;
+            height: 43px;            
+        }
+        .icon:hover {
+            transform: scale(1.1);         
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            .attributiontwo {
+                padding: 15px;
+            }
+            .icon {
+                width: 43px;
+                height: 43px;
+            }
+        }
+    </style>
   </head>
   
   <body>
@@ -39,11 +86,15 @@
       <p style="background-image: url('black.png')" style="width:60px;height:60px; padding-left: 0px;padding-top: 10px;">
      
      <span>
-       <a href="http://innvolutionimaging.com/wp-content/uploads/2019/09/Pinnacle-Agile.pdf"><img src="Brochure.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 17px;padding-top: 0px;"></a>
-       <a href="https://www.youtube.com/watch?v=aOH5lfeVpG4"><img src="Video.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px;"></a>
-       <a href="https://innvolutionimaging.com/pinnacle_agile/"><img src="web.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px;"></a>
-       <a href="http://innvolutionimaging.com/wp-content/uploads/2019/09/Pinnacle-Brochure.pdf"><img src="serch.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px;"></a>
-       <a href="https://docs.google.com/forms/d/e/1FAIpQLSew4D56CSKpONvc30Ay7cLUY6FnPCOs7zK9IPYRLQWQPswbsg/viewform?usp=sf_link"><img src="form.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px;"></a>
+       <a href="http://innvolutionimaging.com/wp-content/uploads/2019/09/Pinnacle-Agile.pdf">
+	       <img src="Brochure.png" class="icon" ></a>
+       <a href="https://www.youtube.com/watch?v=aOH5lfeVpG4">
+	       <img src="Video.png" class="icon" ></a>
+       <a href="https://innvolutionimaging.com/pinnacle_agile/">
+	       <img src="web.png" class="icon" ></a>
+       
+       <a href="https://docs.google.com/forms/d/e/1FAIpQLSew4D56CSKpONvc30Ay7cLUY6FnPCOs7zK9IPYRLQWQPswbsg/viewform?usp=sf_link">
+	       <img src="form.png" class="icon" ></a>
            
      </span>
   
